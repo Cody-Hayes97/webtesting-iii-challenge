@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "enzyme-adapter-react-16.1": "^1.6.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.5"
@@ -23,6 +26,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "enzyme": "^3.10.0",
     "jest-dom": "^3.1.2",
     "react-testing-library": "^6.1.2"
   }
