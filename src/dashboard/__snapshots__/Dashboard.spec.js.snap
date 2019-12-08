@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shows the controls and display 1`] = `
+<DocumentFragment>
+  <div
+    class="display panel"
+  >
+    <div
+      class="led green-led"
+      data-testid="isLocked"
+    >
+      Unlocked
+    </div>
+    <div
+      class="led green-led"
+      data-testid="isClosed"
+    >
+      Open
+    </div>
+  </div>
+  <div
+    class="controls panel"
+  >
+    <button
+      class="toggle-btn"
+      data-testid="unlock-btn"
+      disabled=""
+    >
+      Lock Gate
+    </button>
+    <button
+      class="toggle-btn"
+      data-testid="open-btn"
+    >
+      Close Gate
+    </button>
+  </div>
+</DocumentFragment>
+`;
